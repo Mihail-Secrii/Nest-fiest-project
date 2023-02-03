@@ -20,10 +20,18 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@fastify/csrf-protection": "^6.1.0",
+    "@fastify/helmet": "^10.1.0",
+    "@fastify/static": "^6.7.0",
+    "@fastify/view": "^7.4.0",
     "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
     "@nestjs/platform-fastify": "^9.2.1",
+    "@nestjs/serve-static": "^3.0.0",
+    "@nestjs/throttler": "^4.0.0",
+    "handlebars": "^4.7.7",
     "hbs": "^4.2.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
